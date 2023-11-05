@@ -69,14 +69,16 @@ if location in X.columns:
 else:
     result =  "Location not found in the dataset"
 
+st.title(result+ " Lakhs")
+
 # Define a function to be executed when the button is clicked
-def on_button_click():
-    st.title(result+ " Lakhs")
+# def on_button_click():
+#     st.title(result+ " Lakhs")
 
-# Create a button with the label "Click me!"
-button_clicked = st.button("Click me!", type="primary")
+# # Create a button with the label "Click me!"
+# button_clicked = st.button("Click me!", type="primary")
 
-# Check if the button is clicked
-if button_clicked:
-    # If the button is clicked, execute the on_button_click function
-    on_button_click()
+# # Check if the button is clicked
+# if button_clicked:
+#     # If the button is clicked, execute the on_button_click function
+#     on_button_click()
